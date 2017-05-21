@@ -1,0 +1,2 @@
+CREATE TABLE user(id integer, first_name text, last_name text);
+INSERT INTO _table_ (_column1_, _column2_) VALUES (_valueforcolumn1_, _valueforcolumn2_)

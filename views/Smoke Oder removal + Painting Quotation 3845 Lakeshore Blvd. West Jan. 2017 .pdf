@@ -1,0 +1,17 @@
+
+
+# myapp.rb
+require 'sinatra'
+
+get '/' do
+  'Hello world!'
+end
+# makes dynamic pages
+get '/movies/:title' do
+  params[:title]
+end
+
+# looking for an html page in the folder!
+get '/goodbye' do
+  erb :goodbye
+end
