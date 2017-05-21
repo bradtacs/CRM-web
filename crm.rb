@@ -15,7 +15,10 @@ get '/' do
   erb :index
 end
 
-
 get "/contacts" do
   erb :contacts
+end
+
+get "/new_contact" do
+  erb :new_contact
 end
