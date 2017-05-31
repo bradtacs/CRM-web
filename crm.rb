@@ -6,7 +6,7 @@ require_relative 'contact'
 require 'sinatra'
 
 # Comment out or delete this
-Contact.create('Mark', 'Zuckerberg', 'mark@facebook.com', 'CEO')
+#Contact.create('Mark', 'Zuckerberg', 'mark@facebook.com', 'CEO')
 Contact.create('Sergey', 'Brin', 'sergey@google.com', 'Co-Founder')
 Contact.create('Steve', 'Jobs', 'steve@apple.com', 'Visionary')
 
@@ -20,7 +20,7 @@ get "/contacts" do
   erb :contacts
 end
 
-get "/new_contact" do
+get "/new_contacts" do
   erb :new_contact
 end
 

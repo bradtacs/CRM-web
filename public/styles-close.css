@@ -77,17 +77,16 @@ h1 {
   width: 90%;
   margin: auto;
   margin-top: 10px;
-  text-align: left;
 }
-*
+
 .links {
   background-color: turquoise;
   width: 90%;
   margin: auto;
   margin-top: 10px;
   font-size: 25px;
-  line-height: 40px;
-  text-align: left;
+line-height: 40px;
+text-align: left;
 }
 
 .contacts .links {

@@ -1,0 +1,343 @@
+/* this is my custom CSS */
+
+/* This is a fix to make sure the persistant navbar is not covrering logo and header image  */
+
+
+body {
+	padding:0px;
+	background-color:#fff;
+	margin:0px;
+}
+
+footer {
+	padding:20px;
+	color: #fff;
+	background-color:#fff;
+	text-align: center;
+	z-index:9;
+  display: block;
+  clear: both;
+
+}
+
+.container {
+  max-width: 90%;
+  margin: auto;
+
+}
+
+.big-bg {
+	background-image:url(../img/bigbg.jpg);
+	z-index:3;
+	padding-bottom:10px;
+	background-color:
+
+}
+.thumb-image {
+
+    width: 30%;
+    display: block;
+    margin-left: 0px;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.slider-gallery {
+
+      width: 60%;
+      margin-left: 0px;
+
+      padding-left: 10px;
+      padding-right: 10px;
+      margin: auto;
+}
+
+.email-gallery {
+  width: 40%;
+  margin-left: 0px;
+
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: auto;
+}
+
+h1 {
+	font-family: 'Lato', Helvetica, Arial, sans-serif; font-weight: 300;
+	font-style:italic;
+	color:#fff;
+	font-size:36px;
+	margin:0px;
+	padding:30px 0px 40px 0px;   /* short form top and right bottom left  */
+	line-height:100%;
+	letter-spacing:.65px;
+}
+
+h3.masthead-brand {
+	font-family: 'Lato', Helvetica, Arial, sans-serif; font-weight: 100;
+	color:#222121;
+	text-transform:uppercase;
+	font-size:36px;
+	margin:0px;
+	padding:20px 0px 20px 0px;   /* short form top and right bottom left  */
+
+}
+
+h4 {
+	font-family: 'Lato', Helvetica, Arial, sans-serif; font-weight: 700;
+	color:#fa3b1e;
+	font-style:italic;
+	font-size:22px;
+	margin:0px;
+	padding:20px 0px 0px 0px;   /* short form top and right bottom left  */
+	line-height:130%;
+	letter-spacing:.65px;
+
+}
+
+h5 {
+	font-family: 'Lato', Helvetica, Arial, sans-serif; font-weight: 700;
+	color:#fa3b1e;
+	font-style:italic;
+	font-size:18px;
+	margin:0px;
+
+	line-height:130%;
+	letter-spacing:.65px;
+}
+
+p.footer-font {
+	font-family: 'Lato', Helvetica, Arial, sans-serif; font-weight: 700;
+	font-size:15px;
+	color:#9d3c22;
+	text-align:center;
+}
+
+p.white  {
+	font-family: 'Lato', Helvetica, Arial, sans-serif; font-weight: 400;
+	font-size:15px;
+	color:#fff;
+ 	line-height:180%;
+	letter-spacing:.25px;
+}
+
+.pad-thumbs {
+
+	padding-bottom:20px;
+	text-align:center;
+
+}
+
+
+
+address {
+	font-family: 'Lato', Helvetica, Arial, sans-serif; font-weight: 400;
+	font-size:14px;
+	color:#fff;
+ 	line-height:180%;
+	letter-spacing:.65px;
+
+}
+
+.orange { color:#fa3b1e;}
+
+.item-center { margin:0 auto; }
+
+.center-type { text-align:center; }
+
+.clear-margins {  margin:0; }
+
+/* fixes firefox mozilla dotted strokes aruond links */
+
+a, a:visited, a:focus, a:active, a:hover{
+    outline:0 none !important;
+}
+
+.float-prev {
+
+	padding:30px 0px 40px 0px;
+}
+
+.clearfix {
+  overflow: hidden;;
+}
+
+
+/* styling links  */
+
+a:link {color: #cc3333; text-decoration: none;  font-family: 'Lato', Helvetica, Arial, sans-serif; }
+a:visited {color: #cc3333;; text-decoration: none; }
+a:hover {color: #999900; text-decoration: none; }
+
+/* net link resultss links */
+
+a.website-link:link {color:#fa3b1e;  text-decoration: none; font-family: 'Lato', Helvetica, Arial, sans-serif; font-weight: 300; font-size:20px;  font-style:italic;   }
+a.website-link:visited {color:#fa3b1e;  text-decoration: none; }
+a.website-link:hover {color:#fff; text-decoration: none; }
+
+
+/* web llink  */
+
+a.website-next:link {color:#fa3b1e;  text-decoration: none; font-family: 'Lato', Helvetica, Arial, sans-serif; padding-right:5px; font-weight: 300; font-size:15px; font-style:italic;  text-transform: uppercase; }
+a.website-next:visited {color:#fa3b1e;  text-decoration: none; }
+a.website-next:hover {color:#fff; text-decoration: none; }
+
+/*
+ * Header
+ */
+.masthead-brand {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.masthead-nav > li {
+  display: inline-block;
+  margin-top: 18px;
+}
+.masthead-nav > li + li {
+	color:#222121;
+}
+.masthead-nav > li > a {
+  padding:30px 0px 30px 40px;    short form top and right bottom left  */
+  font-family: 'Lato', Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  font-size:16px;
+  border-bottom: 2px solid transparent;
+  color:#222121;
+}
+.masthead-nav > li > a:hover,
+.masthead-nav > li > a:focus {
+  background-color: transparent;
+  border-bottom-color: #a9a9a9;
+  border-bottom-color: rgba(255,255,255,.25);
+  color:#fa3b1e;
+}
+.masthead-nav > .active > a,
+.masthead-nav > .active > a:hover,
+.masthead-nav > .active > a:focus {
+
+  border-bottom-color: #fff;
+  color:#fa3b1e;
+}
+
+
+@media (min-width: 768px) {
+  .masthead-brand {
+    float: left;
+  }
+  .masthead-nav {
+    float: right;
+  }
+}
+
+@media (max-width: 768px) {
+   /* Pull out the header and footer */
+    h3.masthead-brand {
+
+		padding:10px 0px 0px 0px;   /* short form top and right bottom left  */
+
+	}
+
+	a.website-next:link  {
+
+		margin:0;
+	}
+
+	.masthead-nav > li > a {
+    margin-left: -40PX;
+		padding:0px;/*  short form top and right bottom left  */
+
+	}
+  .masthead-nav > li {
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+    margin-right: 50px;
+  }
+
+  .thumb-image {
+    width: 95%;
+    display: block;
+    margin-left: 0px;
+    float: left;
+  }
+
+	h5 {
+		text-align:center;
+	}
+
+	address {
+		text-align:center;
+	}
+
+	h1.content-pg {
+		padding:20px 0px 3px 0px;   /* short form top and right bottom left  */
+	}
+
+	h1 {
+		padding:20px 0px 20px 0px;   /* short form top and right bottom left  */
+	}
+
+	.big-bg {
+      background: none;
+      background-color:#372221;
+      margin: 0px;
+      padding: 0px;
+    }
+	}
+}
+
+/*
+
+@media (min-width:768px) {
+
+  .movie {
+    margin-left: 80px;
+  }
+  .site-nav {
+    position: fixed;
+    left: 0px;
+    width: 80px;
+    height: 100%;
+  }
+
+  .site-logo {
+    margin-left: 80px;
+  }
+
+  li.site-nav-item{
+    position: relative;
+    top: 12px;
+    left: 4px;
+    width: 90%;
+  }
+
+}
+
+
+@media (min-width:992px) {
+
+  main {
+    margin-left: 80px;
+  }
+
+  .movie {
+    width: 33%;
+    display: block;
+    margin-left: 0px;
+    float: left;
+  }
+  /* FOOTER styles
+
+  .footer-nav-item {
+    padding-top: 25px;
+
+  } */
+  /*  .feature-wide {
+     width: 100%;
+     display: block;
+     margin-left: 0px;
+     float: left;
+   } */
+}
